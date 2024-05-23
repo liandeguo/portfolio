@@ -1,12 +1,12 @@
 @font-face {
     font-family: dejavu;
-    src: url("DejaVuSansMono.ttf");
+    src: url("/DejaVuSansMono.ttf");
 }
 
 @font-face {
     font-family: dejavu;
     font-weight: bold;
-    src: url("DejaVuSansMono-Bold.ttf");
+    src: url("/DejaVuSansMono-Bold.ttf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
