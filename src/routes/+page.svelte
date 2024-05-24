@@ -64,12 +64,12 @@
     }
 </script>
 
-<div style="">
+<div style="" class="element">
     <h1>&lt;Liande Guo/&gt;</h1>
-    <pre>
+    <p>
         Hi! I'm Liande a passionate Frontend Developer from Germany 
-
-    </pre>
+    </p>
+    <br>
     {#each options as option, index}
         <p class="selectable" class:selectedH={index == selected}>
             <a id="select_a" href={option.link}>{option.name}</a>

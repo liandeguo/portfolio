@@ -1,36 +1,36 @@
-<div>
+<div class="element">
     <p style="font-weight: bold;">My Skills</p>
 
-    <pre>
-        - Web Development (HTML, CSS, JavaScript, SvelteKit)
-        - SEO
-        - UI&UX Design
-        - Network Administration
-
-    </pre>
+    <span>
+        - Web Development (HTML, CSS, JavaScript, SvelteKit) <br>
+        - SEO <br>
+        - UI&UX Design <br>
+        - Network Administration <br>
+        <br>
+    </span>
     <p style="font-weight: bold;">Languages</p>
-    <pre>
-        - German (Native)
-        - English (Proficient)
-        - Chinese (Preliminary)
-        - Latin (Advanced)
-        - Greek (ok)
-
-    </pre>
+    <span>
+        - German (Native)         <br>
+        - English (Proficient)        <br>
+        - Chinese (Preliminary)        <br>
+        - Latin (Advanced)        <br>
+        - Greek (ok)        <br>
+        <br>
+    </span>
 
     <p style="font-weight: bold;">Software I'm familiar with</p>
-    <pre>
-        - Visual Studio Code
-        - Git
-        - Docker
-        - Postman
-        - Adobe Photoshop
-        - Adobe XD
-        - Adobe After Effects
-        - Adobe Illustrator
-        - Figma
-        - Davinci Resolve
-        
-    </pre>
+    <span>
+        - Visual Studio Code        <br>
+        - Git        <br>
+        - Docker        <br>
+        - Postman        <br>
+        - Adobe Photoshop        <br>
+        - Adobe XD        <br>
+        - Adobe After Effects        <br>
+        - Adobe Illustrator        <br>
+        - Figma        <br>
+        - Davinci Resolve        <br>
+        <br>
+    </span>
     <a href="../">- Back</a>
 </div>

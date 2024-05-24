@@ -8,15 +8,19 @@
     const age = calcAge(2010);
 </script>
 
-<div>
+<div class="element">
     <p style="font-weight: bold;">About Me</p>
 
-    <pre>
+    <p>
         My Name: Liande Guo
+        <br>
         My Age: {age}
+        <br>
         My Occupation: Student
+        <br>
         What I do: Frontend Development & Graphic Design
-        
-    </pre>
+        <br>
+        <br>
+    </p>
     <a href="../">- Back</a>
 </div>

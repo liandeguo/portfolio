@@ -1,11 +1,12 @@
-<div>
+<div class="element">
     <p style="font-weight: bold;">My Contact & Social Media</p>
 
     <br />
     <p>E-Mail: <a href="mailto:inquiries@guocn.org">inquiries@guocn.org</a></p>
-    <pre>
+    <span>
         ------------------------------------------------
-    </pre>
+    </span>
+    <br>
     <a href="https://github.com/liandeguo">GitHub</a>
     <br />
     <a href="https://dribbble.com/liandeguo">Dribbble</a>
