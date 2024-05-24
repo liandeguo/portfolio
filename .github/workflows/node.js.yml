@@ -19,8 +19,10 @@ jobs:
           node-version: 16 # or the version of Node.js you are using
           cache: 'pnpm'
 
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 7 # or the version of pnpm you are using
 
       - name: Install dependencies
         run: pnpm install
@@ -35,24 +37,8 @@ jobs:
           publish_dir: ./build # make sure this matches your output directory
 
       - name: Deploy to GitHub Pages
-        run: |
-          mkdir -p ./out
-          cp -r ./build/* ./out/
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages # or the branch you are using for GitHub Pages
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Setup GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages # or the branch you are using for GitHub Pages
-          publish_dir: ./out
+          publish_dir: ./build
