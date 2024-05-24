@@ -5,7 +5,7 @@
 
         2021 - Logo Design for "AkuNova"
         ------------------------------------------------
-        2022 - Web Development for DeckMis
+        2023 - Web Development for DeckMis
         <a href="https://www.deckmis.com">Website</a>
 ------------------------------------------------
         2024 - Web Design & Development for Soty Ltd.
