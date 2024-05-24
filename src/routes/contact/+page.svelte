@@ -1,6 +1,11 @@
 <div>
     <p style="font-weight: bold;">My Contact & Social Media</p>
 
+    <br />
+    <p>E-Mail: <a href="mailto:inquiries@guocn.org">inquiries@guocn.org</a></p>
+    <pre>
+        ------------------------------------------------
+    </pre>
     <a href="https://github.com/liandeguo">GitHub</a>
     <br />
     <a href="https://dribbble.com/liandeguo">Dribbble</a>

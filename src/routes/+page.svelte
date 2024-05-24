@@ -15,7 +15,11 @@
             link: "myskills",
         },
         {
-            name: "[03] Contact & Social Media",
+            name: "[03] My Work",
+            link: "mywork",
+        },
+        {
+            name: "[04] Contact & Social Media",
             link: "contact",
         },
     ];
@@ -51,6 +55,9 @@
                     window.location = "myskills";
                 }
                 if (selected == 2) {
+                    window.location = "mywork";
+                }
+                if (selected == 3) {
                     window.location = "contact";
                 }
         }
