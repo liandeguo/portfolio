@@ -11,6 +11,8 @@
     <br />
     <a href="https://x.com/liandeg">X/Twitter</a>
     <br />
+    <a href="https://www.linkedin.com/in/leanderguo/">LinkedIn</a>
+    <br />
     <br />
     <a href="../">- Back</a>
 </div>

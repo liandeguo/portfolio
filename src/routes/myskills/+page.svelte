@@ -12,6 +12,9 @@
     <pre>
         - German (Native)
         - English (Proficient)
+        - Chinese (Preliminary)
+        - Latin (Advanced)
+        - Greek (ok)
 
     </pre>
 

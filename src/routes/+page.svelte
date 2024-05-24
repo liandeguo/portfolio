@@ -58,9 +58,9 @@
 </script>
 
 <div style="">
+    <h1>&lt;Liande Guo/&gt;</h1>
     <pre>
-        Hello, I'm Liande Guo, a Frontend Developer from Germany and this is my
-        website. 
+        Hi! I'm Liande a passionate Frontend Developer from Germany 
 
     </pre>
     {#each options as option, index}
