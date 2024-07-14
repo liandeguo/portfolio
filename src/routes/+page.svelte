@@ -19,7 +19,11 @@
             link: "mywork",
         },
         {
-            name: "[04] Contact & Social Media",
+            name: "[04] Personal Projects",
+            link: "mywork",
+        },
+        {
+            name: "[05] Contact & Social Media",
             link: "contact",
         },
     ];
@@ -58,6 +62,9 @@
                     window.location = "mywork";
                 }
                 if (selected == 3) {
+                    window.location = "personalprojects";
+                }
+                if (selected == 4) {
                     window.location = "contact";
                 }
         }
