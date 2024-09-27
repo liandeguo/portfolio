@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: Oxproto;
-    src: url('/fonts/0xProtoNerdFont-Regular.ttf');
+    src: url("/fonts/0xProtoNerdFont-Regular.ttf");
 }
 
 * {
@@ -14,19 +18,6 @@ body {
     background-color: #282828;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    text-align: left;
-    padding: 30px;
-}
-
-main>div {
-    width: 80vw;
-}
-
 hr {
     margin: 15px 0;
     color: #92b386;
@@ -36,35 +27,11 @@ h {
     color: #87aca3;
 }
 
-.project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.project h3 {
-    flex: 0.7;
-}
-
-.project p {
-    flex: 1.7;
-}
-
-.project .links {
-    flex: 0.2;
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(134px, max-content));
-    margin-top: 5px;
-}
-
-.contact>a {
+.contact > a {
     margin: 5px;
 }
 
-.contact>a>img {
+.contact > a > img {
     margin: 0 8px 0 0;
 }
 
@@ -72,13 +39,4 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hero {
-    width: 100%;
-    height: 200px;
-    background: url('/img/background.jpg') center;
-    background-size: cover;
-    border-radius: 10px;
-    margin: 0 0 30px 0;
 }

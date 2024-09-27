@@ -1,6 +1,8 @@
-<main>
-    <div>
-        <div class="hero"></div>
+<main class="flex flex-col items-center p-8 text-left">
+    <div style="w-0.5">
+        <div
+            class="hero w-full h-52 mb-8 rounded-xl bg-cover bg-center bg-[url('/img/background.jpg')]"
+        ></div>
         <h1>Hey! I'm Leander.</h1>
         <hr />
         <p>i am a 14 year old programmer from germany.</p>
@@ -14,7 +16,10 @@
             if you would like to contact me or have a look at my profiles here
             are some options
         </p>
-        <div style="" class="contact">
+        <div
+            style=""
+            class="mt-1 grid grid-cols-[repeat(auto-fit,minmax(134px,max-content))]"
+        >
             <a href="https://github.com/liandeguo"
                 ><img src="/icons/github.svg" alt="" /> @liandeguo</a
             >
@@ -33,14 +38,14 @@
         <div class="projects">
             <h2>my projects</h2>
             <br />
-            <div class="project" id="soty">
-                <h3>Soty Ltd.</h3>
-                <p>
+            <div class="flex justify-between items-center" id="soty">
+                <h3 class="flex-[0.7]">Soty Ltd.</h3>
+                <p class="flex-[1.7]">
                     i made the website for soty ltd. in <br />
                     <h>SvelteKit HTML CSS</h>
                     and <h>JavaScript</h>
                 </p>
-                <div class="links">
+                <div class="flex-[0.2]">
                     <a href="https://github.com/Soty-Ltd/website-new"
                         ><img src="/icons/github.svg" color="white" alt="" /></a
                     >
@@ -50,16 +55,16 @@
                 </div>
             </div>
             <hr />
-            <div class="project" id="soty">
-                <h3>Brawl Stars Tracker</h3>
-                <p>
+            <div class="flex justify-between items-center" id="soty">
+                <h3 class="flex-[0.7]">Brawl Stars Tracker</h3>
+                <p class="flex-[1.7]">
                     i made a website that can track your progress in the game <br
                     />
                     called brawlstars using their
                     <h>api SvelteKit HTML JavaScript</h>
                     and <h>CSS</h>
                 </p>
-                <div class="links">
+                <div class="flex-[0.2]">
                     <a href="https://github.com/liandeguo/brawlstats"
                         ><img src="/icons/github.svg" alt="" /></a
                     >
@@ -70,6 +75,7 @@
             </div>
             <hr />
         </div>
+        <div></div>
         <br />
         <br />
     </div>
