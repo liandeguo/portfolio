@@ -9,28 +9,29 @@
         <br />
         <p>
             i like to do <h>frontend development</h> and <h>graphics design</h> and
-            am currently a student @ KWR
+            am currently a student.
         </p>
         <br />
         <p>
             if you would like to contact me or have a look at my profiles here
             are some options
         </p>
-        <div
-            style=""
-            class="mt-1 grid grid-cols-[repeat(auto-fit,minmax(134px,max-content))]"
-        >
-            <a href="https://github.com/liandeguo"
-                ><img src="/icons/github.svg" alt="" /> @liandeguo</a
+        <div style="" class="mt-2 flex text-left max-sm:flex-col">
+            <a href="https://github.com/liandeguo" class="max-sm:mt-1"
+                ><img src="/icons/github.svg" alt="" class="mr-1" /> @liandeguo</a
             >
-            <a href="https://www.linkedin.com/in/leanderguo/"
-                ><img src="/icons/linkedin.svg" alt="" /> @leanderguo</a
+            <a
+                href="https://www.linkedin.com/in/leanderguo/"
+                class="max-sm:mt-1 sm:ml-2"
+                ><img src="/icons/linkedin.svg" alt="" class="mr-1" /> @leanderguo</a
             >
-            <a href="https://dribbble.com/liandeguo"
-                ><img src="/icons/dribbble.svg" alt="" /> @liandeguo</a
+            <a href="https://dribbble.com/liandeguo" class="max-sm:mt-1 sm:ml-2"
+                ><img src="/icons/dribbble.svg" alt="" class="mr-1" /> @liandeguo</a
             >
-            <a href="https://www.instagram.com/liande.g/"
-                ><img src="/icons/instagram.svg" alt="" /> @liande.g</a
+            <a
+                href="https://www.instagram.com/liande.g/"
+                class="max-sm:mt-1 sm:ml-2"
+                ><img src="/icons/instagram.svg" alt="" class="mr-1" /> @liande.g</a
             >
         </div>
         <br />
